@@ -1,0 +1,27 @@
+name=["吴亦凡","菜徐坤","家乐"]
+for nam in name:
+    print(nam)
+print("_"*50)
+print(name)
+name[0]="加拿大电王"
+print(name)
+print("_"*50)
+name.append("徐财厚")
+print(name)
+print("_"*50)
+del(name[0])
+print(name)
+print("_"*50)
+name.remove("徐财厚")
+print(name)
+print("_"*50)
+name1=["假面","闪光"]
+name.extend(name1)
+print(name)
+print("_"*50)
+name.append(name1)
+print(name)
+print("_"*50)
+print(name.index("家乐"))
+name.append("家乐")
+print(name.index("家乐",name.index("家乐")+1))

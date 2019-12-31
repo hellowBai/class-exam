@@ -1,0 +1,7 @@
+name=input("您的姓名:")
+age=int(input("您的年龄:"))
+tel=input("您的tel:")
+print("____"*3)
+print("name:%s"%name)
+print("age:%d"%age)
+print("tel:%s"%tel)
